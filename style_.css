@@ -49,7 +49,7 @@ nav img {
   color: rgb(57, 255, 163);
 }
 
-.nav-links ul li::after {
+/* .nav-links ul li::after {
   content: "";
   width: 0%;
   height: 2px;
@@ -57,7 +57,7 @@ nav img {
   display: block;
   margin: auto;
   transition: 0.3s;
-}
+} */
 
 .nav-links ul li:hover::after {
   width: 100%;
@@ -119,4 +119,23 @@ nav img {
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
+}
+
+.neon {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(97, 255, 181);
+  border: 1px solid rgb(97, 255, 181);
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  -webkit-box-shadow: 0 0 15px rgb(67, 255, 181);
+  box-shadow: 0 0 15px rgb(97, 255, 181);
+  transition: 0.5s;
+}
+
+.neon:hover {
+  color: black;
+  background: rgb(97, 255, 181);
 }
